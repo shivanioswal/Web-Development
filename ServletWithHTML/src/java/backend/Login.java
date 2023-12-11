@@ -12,10 +12,13 @@ public class Login extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out=resp.getWriter();
         
-        String email2 = req.getParameter("email1");
-        String pass2 = req.getParameter("pass1");
+        String expectedemail = req.getParameter("email1");
+        String expectedpassword = req.getParameter("pass1");
         
-        if(email2.equals("deepak@gmail.com") && pass2.equals("deepak123"))
+        String expectedemailID = "dummy@gmail.com";
+        String expectedpasswordUser = "dummy123" ;
+        
+        if(expectedemail.equals(expectedemailID) && expectedpassword.equals(expectedpasswordUser))
         {
             out.print("Login Successful");
         }
