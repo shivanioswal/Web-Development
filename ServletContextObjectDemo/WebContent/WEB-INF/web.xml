@@ -1,0 +1,16 @@
+<web-app>
+	<context-param>
+		<param-name> name </param-name>
+		<param-value> dummyname </param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>testdemo</servlet-name>
+		<servlet-class> com.sc.Test </servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name> testdemo </servlet-name>
+	<url-pattern> /demo </url-pattern>
+	</servlet-mapping>
+
+</web-app>
