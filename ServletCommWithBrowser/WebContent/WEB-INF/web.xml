@@ -1,0 +1,12 @@
+<web-app>
+	<servlet>
+		<servlet-name> registerdemo </servlet-name>
+		<servlet-class> com.scwb.Register </servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name> registerdemo </servlet-name>
+		<url-pattern> /reg </url-pattern>
+	</servlet-mapping>
+</web-app>
+
