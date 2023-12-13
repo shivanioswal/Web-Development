@@ -1,0 +1,17 @@
+<web-app>
+	<servlet>
+		<servlet-name> testdemo </servlet-name>
+		<servlet-class> com.sc.Test </servlet-class>
+		<init-param> 
+			<param-name> email </param-name>
+			<param-value> dummyemail@gmail.com </param-value>
+		 </init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name> testdemo </servlet-name>
+		<url-pattern> /demo </url-pattern>
+	</servlet-mapping>
+	
+
+
+</web-app>
