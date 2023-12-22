@@ -1,0 +1,42 @@
+<web-app>
+	<servlet>
+		<servlet-name>fsdemo</servlet-name>
+		<servlet-class>com.learn.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fsdemo</servlet-name>
+		<url-pattern>/firstservlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>lsdemo</servlet-name>
+		<servlet-class>com.learn.LoginService</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>lsdemo</servlet-name>
+		<url-pattern>/loginservice</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>profiledemo</servlet-name>
+		<servlet-class>com.learn.profile</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>profiledemo</servlet-name>
+		<url-pattern>/profile</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	
+		<servlet-name>logoutdemo</servlet-name>
+		<servlet-class>com.learn.Logout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>logoutdemo</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list>
+	
+</web-app>
